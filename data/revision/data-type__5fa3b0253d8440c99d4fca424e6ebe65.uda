@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {"contentTypes":[{"ncAlias":"galleri","ncTabAlias":"Galleri","nameTemplate":""}],"minItems":1,"maxItems":6,"confirmDeletes":true,"showIcons":true,"hideLabel":true},
+  "Parent": null,
+  "Udi": "umb://data-type/5fa3b0253d8440c99d4fca424e6ebe65",
+  "Dependencies": [],
+  "Name": "home - Nested - Nested Content",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

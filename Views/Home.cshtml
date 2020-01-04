@@ -1,0 +1,73 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.Home>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master.cshtml";
+    var books = Model.Root()
+                .FirstChild<ProductOverview>()
+                .Children<ProductItem>()
+                .OrderByDescending(x => x.CreateDate)
+                .Take(4);
+    
+} 
+<section class="MainImage">
+            @{
+                var typedMediaPickerSingle = Model.Value<IPublishedContent>("image");
+                if (typedMediaPickerSingle != null)
+                {
+                    <img src="@typedMediaPickerSingle.Url" alt="Velkommen til forlaget Aifos" />
+                }
+            }
+        <div class="centered">
+            <h1>@Model.Headline</h1>
+            <p>@Model.SecondaryHeadline</p>
+        </div> 
+</section>
+
+<section class="wrapper">
+        <h1>Nyeste Bøger</h1>
+    <div class="NewProducts">
+            @foreach (var book in books) {
+                <div class="product--card">
+                <a href="@book.Url">
+                    <img src="@book.ProductImage.Url"  alt="alttext" >
+                </a>
+                    <h2>@book.Titel</h2>
+                    <p>@book.UnderTitel</p>
+                    <h3>@book.Price kr</h3>
+                    <button class="snipcart-add-item"
+                    data-item-id="@book.Name"
+                    data-item-price="@book.Price"
+                    data-item-name="@book.Name"
+                    data-item-image="@book.ProductImage.Url"
+                    >Læg i kurv</button>                
+                    </div>
+                }
+        </div>
+    </section>
+    <section class="About-wrapper">
+        <div class="About--info">
+            <h1>@Model.AboutHeading</h1>
+            <p>@Model.AboutText</p>
+        </div>
+    </section>
+    <section class="Gallery--wrapper">
+        <h1>Udvalgte billeder</h1>
+    <div class="Frontpage--Gallery">
+        @{
+            var items = Model.Value<IEnumerable<IPublishedElement>>("nested");
+
+            foreach(var item in items)
+            {
+                
+            var test = item.Value<string>("text");
+            var image = item.Value<IPublishedContent>("billeder");
+
+            <div class="@test">
+                    <a href="@image.Url" data-lightbox="image-1" data-title="Udvalgte billeder"><img src="@image.Url"  class="gallery--image"></a>
+                </div>
+
+            }
+        } 
+    </div>
+</section>
+<script src="/Assets/lightbox2-dev/dist/js/lightbox-plus-jquery.js"></script>

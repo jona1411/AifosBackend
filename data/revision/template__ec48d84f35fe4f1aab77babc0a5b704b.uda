@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/XmlSiteMap.cshtml",
+  "Master": null,
+  "Udi": "umb://template/ec48d84f35fe4f1aab77babc0a5b704b",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/XmlSiteMap.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "XmlSiteMap",
+  "Alias": "XmlSiteMap",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "3.2.0"
+}

@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.Grid",
+  "DatabaseType": 0,
+  "Configuration": {"items":{"styles":[{"label":"Set a background image","description":"Set a row background","key":"background-image","view":"imagepicker","modifier":"url({0})"}],"config":[{"label":"Class","description":"Set a css class","key":"class","view":"textstring"}],"columns":12,"templates":[{"name":"1 column layout","sections":[{"grid":5,"allowAll":true},{"grid":7,"allowAll":true}]},{"name":"column2","sections":[{"grid":5,"allowAll":true}]},{"name":"","sections":[{"grid":12,"allowAll":true}]}],"layouts":[{"name":"Galleri","areas":[{"grid":3,"allowAll":true},{"grid":3,"allowAll":true},{"grid":6,"allowAll":true}],"label":"gallery"},{"name":"row2","areas":[{"grid":6,"allowAll":true}]},{"name":"row3","areas":[{"grid":6,"allowAll":true},{"grid":6,"allowAll":true}]}]},"rte":{"toolbar":["ace","styleselect","bold","italic","alignleft","aligncenter","alignright","bullist","numlist","outdent","indent","link","umbmediapicker","umbmacro","umbembeddialog"],"stylesheets":[],"maxImageSize":500,"mode":"classic"},"ignoreUserStartNodes":false,"mediaParentId":null},
+  "Parent": null,
+  "Udi": "umb://data-type/dab4dd269ca9452e947916b56a34c6e9",
+  "Dependencies": [],
+  "Name": "home - Galleri Grid - Grid layout",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

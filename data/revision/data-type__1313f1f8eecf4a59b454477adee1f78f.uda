@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.Integer",
+  "DatabaseType": 2,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/1313f1f8eecf4a59b454477adee1f78f",
+  "Dependencies": [],
+  "Name": "Product Item - price - Numeric",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

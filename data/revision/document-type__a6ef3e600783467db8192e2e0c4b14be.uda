@@ -1,0 +1,135 @@
+{
+  "DefaultTemplate": "umb://template/191ee8b342854cbb98477663aa334522",
+  "AllowedTemplates": [
+    "umb://template/191ee8b342854cbb98477663aa334522"
+  ],
+  "Icon": "icon-info color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "35e39bc3-f8cc-40f2-84a2-c2d6396e2df7",
+      "Name": "Om forlaget",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "0c530030-cf95-451a-8e1b-84dbc27bea0b",
+          "Alias": "aboutHeading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast en titel",
+          "Mandatory": true,
+          "Name": "Titel",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "49d922d4-586d-452a-9dc3-24a6dfd44fd5",
+          "Alias": "aboutImage",
+          "DataType": "umb://data-type/49c55d3950ec4d78894c5284f1ac89ef",
+          "Description": "Indsæt et billede",
+          "Mandatory": true,
+          "Name": "Billede",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "96950ee7-1440-4822-9d1a-2b633be44a49",
+          "Alias": "aboutDescription",
+          "DataType": "umb://data-type/713c14bd296c4e9ea9fe2c6bdfccbebe",
+          "Description": "Indtast en beskrivelse af forlaget",
+          "Mandatory": true,
+          "Name": "Beskrivelse",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "bf5bed2a-6954-46fa-97fa-2c80157984d8",
+      "Name": "Om bøgerne (Valgfri)",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "49fb33a9-3c70-4d53-a8cf-45ee8c6d5e6f",
+          "Alias": "booksHeadline",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast en titel",
+          "Mandatory": false,
+          "Name": "Titel",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "7439f7df-45b0-48d8-8ec8-3105faf0d467",
+          "Alias": "aboutBooksDescription",
+          "DataType": "umb://data-type/2cd7f8bde4b6413f8bedb70fb650c551",
+          "Description": "Indtast en beskrivelse omkring de bøger som forlaget udgiver",
+          "Mandatory": false,
+          "Name": "Om bøgerne beskrivelse",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a6ef3e600783467db8192e2e0c4b14be",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2cd7f8bde4b6413f8bedb70fb650c551",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/49c55d3950ec4d78894c5284f1ac89ef",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/713c14bd296c4e9ea9fe2c6bdfccbebe",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/191ee8b342854cbb98477663aa334522",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "About",
+  "Alias": "about",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.2.0"
+}

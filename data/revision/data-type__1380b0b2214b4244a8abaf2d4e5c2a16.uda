@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.TextArea",
+  "DatabaseType": 0,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/1380b0b2214b4244a8abaf2d4e5c2a16",
+  "Dependencies": [],
+  "Name": "Product page - Descriptive headline - Textarea",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

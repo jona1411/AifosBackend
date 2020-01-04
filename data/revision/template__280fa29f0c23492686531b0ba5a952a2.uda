@@ -1,0 +1,21 @@
+{
+  "File": "umb://template-file/ProductOverview.cshtml",
+  "Master": "umb://template/f777ede8aa86428fb06b2b264243dc81",
+  "Udi": "umb://template/280fa29f0c23492686531b0ba5a952a2",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/f777ede8aa86428fb06b2b264243dc81",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template-file/ProductOverview.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Product overview",
+  "Alias": "ProductOverview",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "3.2.0"
+}

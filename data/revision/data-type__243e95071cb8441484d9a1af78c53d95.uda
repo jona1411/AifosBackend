@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": 2,
+  "Configuration": {"default":"0","labelOn":null},
+  "Parent": null,
+  "Udi": "umb://data-type/243e95071cb8441484d9a1af78c53d95",
+  "Dependencies": [],
+  "Name": "XmlSiteMapSettings - Hide From Xml Sitemap - Checkbox",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.TextBox",
+  "DatabaseType": 1,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/e580fb2c66bb4a8793d7a40d9abbc151",
+  "Dependencies": [],
+  "Name": "home - Email - Textbox",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

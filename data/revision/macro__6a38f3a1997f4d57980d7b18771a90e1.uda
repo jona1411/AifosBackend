@@ -1,0 +1,30 @@
+{
+  "MacroType": 7,
+  "MacroSource": "~/Views/MacroPartials/Gallery.cshtml",
+  "UseInEditor": true,
+  "CacheDuration": 0,
+  "CacheByPage": false,
+  "CacheByMember": false,
+  "DontRender": false,
+  "Properties": [
+    {
+      "Key": "5835278b-73fd-4dbf-b5eb-97961d3d6ad9",
+      "Alias": "tilfojBilleder",
+      "Name": "Tilføj billeder",
+      "SortOrder": 0,
+      "EditorAlias": "Umbraco.MediaPicker"
+    }
+  ],
+  "Udi": "umb://macro/6a38f3a1997f4d57980d7b18771a90e1",
+  "Dependencies": [
+    {
+      "Udi": "umb://partial-view-macro/Gallery.cshtml",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Name": "Gallery",
+  "Alias": "Gallery",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.MacroArtifact",
+  "__version": "3.2.0"
+}

@@ -1,0 +1,85 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "ec775d72-6d56-4fce-86f7-3a4700740b0a",
+      "Name": "Xml Sitemap Settings",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "11fdca6e-2ebd-484f-ba76-acb63c6e1860",
+          "Alias": "searchEngineChangeFrequency",
+          "DataType": "umb://data-type/0b6a45e744ba430d9da54e46060b9e03",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Search Engine Change Frequency",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "7e7659fc-c76d-4138-a3f4-7d968454c4ca",
+          "Alias": "hideFromXmlSitemap",
+          "DataType": "umb://data-type/243e95071cb8441484d9a1af78c53d95",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Hide From Xml Sitemap",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "a58170a4-dc74-4bce-b689-c9823cf564d7",
+          "Alias": "searchEngineRelativePriority",
+          "DataType": "umb://data-type/86fedf82c6374b8d9c9968d98eda4dcd",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Search Engine Relative Priority",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0b6a45e744ba430d9da54e46060b9e03",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/243e95071cb8441484d9a1af78c53d95",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/86fedf82c6374b8d9c9968d98eda4dcd",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "XmlSiteMapSettings",
+  "Alias": "xmlSiteMapSettings",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.2.0"
+}

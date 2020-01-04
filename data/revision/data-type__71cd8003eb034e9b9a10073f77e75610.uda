@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.Integer",
+  "DatabaseType": 2,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/71cd8003eb034e9b9a10073f77e75610",
+  "Dependencies": [],
+  "Name": "home - CVR - Numeric",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

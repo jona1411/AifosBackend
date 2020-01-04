@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.MultiNodeTreePicker",
+  "DatabaseType": 0,
+  "Configuration": {"startNode":{"type":"content","query":null,"id":"umb://document/7ad367f579fe4605adccc79a0369dcfe"},"filter":null,"minNumber":1,"maxNumber":4,"showOpenButton":false,"ignoreUserStartNodes":false},
+  "Parent": null,
+  "Udi": "umb://data-type/dea24870a34e4d26990ab0bdf850632c",
+  "Dependencies": [],
+  "Name": "home - Nyeste produkter - Multinode Treepicker",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

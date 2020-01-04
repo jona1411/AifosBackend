@@ -1,0 +1,68 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "f1366aac-f5e8-44b2-bf2e-af3cdd0d5159",
+      "Name": "Galleri",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "6c71564e-2ecf-42c4-b929-70d24995ebd4",
+          "Alias": "billeder",
+          "DataType": "umb://data-type/20311a418e1c4b8d80d0c3d5968294f9",
+          "Description": "Indsæt eller ændre billedet",
+          "Mandatory": false,
+          "Name": "Billeder",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "de201c17-a997-44df-86ee-26bab0e69026",
+          "Alias": "text",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Til html classen således billederne får den rigtige klasse",
+          "Mandatory": false,
+          "Name": "Text",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/bf359037e9fb43538fdf13e32bbd5f1d",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/20311a418e1c4b8d80d0c3d5968294f9",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Galleri",
+  "Alias": "galleri",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.2.0"
+}

@@ -1,0 +1,35 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.ProductItem>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master.cshtml";
+}
+    <section class="Product">
+        <div class="Product--content">
+            <div class="Product--Content--Image">
+            @{
+                var typedMediaPickerSingle = Model.Value<IPublishedContent>("productImage");
+                if (typedMediaPickerSingle != null)
+                {
+                    <img src="@typedMediaPickerSingle.Url" alt="Product" />
+                }
+            }
+            </div>
+            <div class="product--content--details">
+                <h1>@Model.Value("titel")</h1>
+                <p><b>Forfatter:</b> @Model.Value("author")</p>
+                <p><b>ISBN:</b> @Model.Value("ISBN")</p>
+                <p><b>pris:</b> @Model.Value("price")KR</p>
+                <input type="number">
+                <button class="snipcart-add-item"
+                data-item-id="@Model.Name"
+                data-item-price="@Model.Price"
+                data-item-name="@Model.Name"
+                data-item-image="@Model.ProductImage.Url"
+                >Læg i kurv</button>
+                
+                <h3>Beskrivelse</h3>
+                <p class="desc">
+                    @Model.bookDescription</p>
+            </div>
+        </div>
+    </section>

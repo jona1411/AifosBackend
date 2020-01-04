@@ -1,0 +1,21 @@
+{
+  "File": "umb://template-file/ContactForm.cshtml",
+  "Master": "umb://template/f777ede8aa86428fb06b2b264243dc81",
+  "Udi": "umb://template/ef81c65afebb4e62b84c0fd8777f17b4",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/f777ede8aa86428fb06b2b264243dc81",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template-file/ContactForm.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Contact form",
+  "Alias": "ContactForm",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "3.2.0"
+}

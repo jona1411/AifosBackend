@@ -1,0 +1,40 @@
+{
+  "DefaultTemplate": "umb://template/ef81c65afebb4e62b84c0fd8777f17b4",
+  "AllowedTemplates": [
+    "umb://template/ef81c65afebb4e62b84c0fd8777f17b4"
+  ],
+  "Icon": "icon-mailbox color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/bde6b8891fee498aa7fadf20c9cacea4",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/ef81c65afebb4e62b84c0fd8777f17b4",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Contact form",
+  "Alias": "contactForm",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.2.0"
+}

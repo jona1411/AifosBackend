@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": 2,
+  "Configuration": {"default":"0","labelOn":"Hide from menu"},
+  "Parent": null,
+  "Udi": "umb://data-type/d251d94987ce490dbc89a0198cb65ab2",
+  "Dependencies": [],
+  "Name": "XmlSiteMap - umbracoNaviHide - Checkbox",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

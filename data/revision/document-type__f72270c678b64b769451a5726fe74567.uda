@@ -1,0 +1,75 @@
+{
+  "DefaultTemplate": "umb://template/ec48d84f35fe4f1aab77babc0a5b704b",
+  "AllowedTemplates": [
+    "umb://template/ec48d84f35fe4f1aab77babc0a5b704b"
+  ],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "9d8da91b-a56a-4fde-803e-961d4addfea2",
+      "Name": "Sitemap Configuration",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "0d3d26a4-4ce6-469a-912e-67f1e333d78e",
+          "Alias": "umbracoNaviHide",
+          "DataType": "umb://data-type/d251d94987ce490dbc89a0198cb65ab2",
+          "Description": "Hide from navigation",
+          "Mandatory": false,
+          "Name": "umbracoNaviHide",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "e0dfa264-5a2d-420c-9103-9086c658e58b",
+          "Alias": "blacklistedDocumentTypes",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Blacklisted Document Types",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/f72270c678b64b769451a5726fe74567",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d251d94987ce490dbc89a0198cb65ab2",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/ec48d84f35fe4f1aab77babc0a5b704b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "XmlSiteMap",
+  "Alias": "xmlSiteMap",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.2.0"
+}

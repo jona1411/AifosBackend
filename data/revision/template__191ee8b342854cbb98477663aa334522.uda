@@ -1,0 +1,21 @@
+{
+  "File": "umb://template-file/About.cshtml",
+  "Master": "umb://template/f777ede8aa86428fb06b2b264243dc81",
+  "Udi": "umb://template/191ee8b342854cbb98477663aa334522",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/f777ede8aa86428fb06b2b264243dc81",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template-file/About.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "About",
+  "Alias": "About",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "3.2.0"
+}

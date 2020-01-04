@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.TextArea",
+  "DatabaseType": 0,
+  "Configuration": {"maxChars":200},
+  "Parent": null,
+  "Udi": "umb://data-type/a1167d6b8b6b4cef912195da33fafe1a",
+  "Dependencies": [],
+  "Name": "Product overview - Genre Description - Textarea",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

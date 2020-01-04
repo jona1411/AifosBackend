@@ -1,0 +1,104 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+	Layout = null;
+    var site = Model.Root();
+    var selection = site.Children.Where(x=> x.IsVisible());
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-site-verification" content="aQ1Hdf1YxzytKz9cCp8LCAffVDRYBcl1ZJpHK87wSLg" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="/Assets/lightbox2-dev/dist/css/lightbox.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.1/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://kit.fontawesome.com/09f61afeaa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Assets/ResponsiveMenu/css/pushy.css">
+    <title>Aifos</title>
+</head>
+<body>
+    <main>
+    <header>
+    <nav class="nav">
+        <div class="nav--logo">
+            <a href="/">
+            @{
+                var typedMediaPickerSingle = Model.Value<IPublishedContent>("logo", fallback: Fallback.ToAncestors);
+                if (typedMediaPickerSingle != null)
+                {
+                    <img src="@typedMediaPickerSingle.Url" style="width:200px" alt="@typedMediaPickerSingle.Value("alt")" />
+                }
+            }
+        
+            </a>
+        </div>
+        <div class="nav--Links">
+        @foreach(var item in selection) {
+            <a class="nav-link @(item.IsAncestorOrSelf(Model) ? "nav-link--active" : null)" href="@item.Url">@item.Name</a>
+        }
+        <a class="snipcart-checkout">Indkøbskurv<i class="fas fa-shopping-cart"></i><span class="snipcart-items-count"></span></a>
+        </div>
+        <nav class="pushy pushy-right" data-focus="#target">
+            <ul>
+                @foreach(var item in selection) {
+            <a class="nav-link @(item.IsAncestorOrSelf(Model) ? "nav-link--active" : null)" href="@item.Url">@item.Name</a>
+        }
+        <a class="snipcart-checkout">Indkøbskurv<i class="fas fa-shopping-cart"></i><span class="snipcart-items-count"></span></a>
+            </ul>
+        </nav>
+        <div class="site-overlay"></div>
+            <div id="container">
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+
+    </nav>
+</header>
+    
+        @RenderBody()
+        
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <h2>Kontakt</h2>
+                   <h4> Hvis du har nogle spørgsmål<br> så send gerne en mail,<br>
+                        eller følg os på facebook</h4>
+  
+            <a href="mailto:@Model.Value("email", fallback: Fallback.ToAncestors)" target="_top">
+                <p><i class="fas fa-envelope"></i>@Model.Value("email", fallback: Fallback.ToAncestors)</p>
+            </a>
+            <a href="@Model.Value("socialeMedier", fallback: Fallback.ToAncestors)">
+                <p><i class="fab fa-facebook-f"></i>Følg os på facebook</p>
+            </a>
+            </div>
+            <div class="Information">
+                    <h2>Information</h2>
+                    <p>@Model.Value("forlagetsNavn", fallback: Fallback.ToAncestors)</p>
+                    <p>@Model.Value("addresse", fallback: Fallback.ToAncestors)</p>
+                    <p>@Model.Value("by", fallback: Fallback.ToAncestors)</p>
+                    <p>CVR: @Model.Value("cVR", fallback: Fallback.ToAncestors)</p>
+            </div>
+            <div class="links">
+                    <h3>Hurtig Links</h3>
+                    @foreach(var item in selection) {
+                        <a class="nav-link @(item.IsAncestorOrSelf(Model) ? "nav-link--active" : null)" href="@item.Url">@item.Name</a>
+                    }
+            </div>
+        </div>
+    </footer>
+     <div id="snipcart" data-api-key="ODA3OTdjZjYtNDYxNC00YzVkLTg0OWYtNmYyYTA0ZDVkZjMxNjM3MTI0MzY0NzY5ODk5MTIz" hidden></div>
+   
+    
+    </main>
+        <script src="/scripts/jquery-3.4.1.min.js"></script>
+        <script src="/scripts/Main.js"></script>
+        <script src="/Assets/ResponsiveMenu/js/pushy.min.js"></script>
+        <script src="https://cdn.snipcart.com/themes/v3.0.5/default/snipcart.js"></script>
+</body>
+</html>

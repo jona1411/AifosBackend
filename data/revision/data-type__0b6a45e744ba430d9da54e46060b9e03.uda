@@ -1,0 +1,12 @@
+{
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {"multiple":false,"items":[{"id":1,"value":"Always"},{"id":2,"value":"Hourly"},{"id":3,"value":"Daily"},{"id":4,"value":"Weekly"},{"id":5,"value":"Monthly"},{"id":6,"value":"Yearly"},{"id":7,"value":"never"},{"id":8,"value":"Never ever"}]},
+  "Parent": null,
+  "Udi": "umb://data-type/0b6a45e744ba430d9da54e46060b9e03",
+  "Dependencies": [],
+  "Name": "Dropdown",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "3.2.0"
+}

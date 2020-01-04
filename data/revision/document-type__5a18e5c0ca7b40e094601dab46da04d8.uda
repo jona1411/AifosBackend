@@ -1,0 +1,89 @@
+{
+  "DefaultTemplate": "umb://template/280fa29f0c23492686531b0ba5a952a2",
+  "AllowedTemplates": [
+    "umb://template/280fa29f0c23492686531b0ba5a952a2"
+  ],
+  "Icon": "icon-books color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": true,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/b67728ef43ca41af8e9049ec34b8ef7e"
+    ]
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "54c45b57-9111-443d-aac4-b86f1740ddb3",
+      "Name": "Description",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "0237e2b5-9587-42c2-bfc3-e59aed9966db",
+          "Alias": "genreName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast bøgernes genre der bliver vist",
+          "Mandatory": false,
+          "Name": "Genre",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "289ce637-4f03-4d4e-8df5-a48008478882",
+          "Alias": "genreDescription",
+          "DataType": "umb://data-type/a1167d6b8b6b4cef912195da33fafe1a",
+          "Description": "Indtast en beskrivesle af Genren",
+          "Mandatory": false,
+          "Name": "Genre Beskrivelse",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5a18e5c0ca7b40e094601dab46da04d8",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/a1167d6b8b6b4cef912195da33fafe1a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/b67728ef43ca41af8e9049ec34b8ef7e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/280fa29f0c23492686531b0ba5a952a2",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Product overview",
+  "Alias": "productOverview",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.2.0"
+}

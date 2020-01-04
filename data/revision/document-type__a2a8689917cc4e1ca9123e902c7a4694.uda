@@ -1,0 +1,303 @@
+{
+  "DefaultTemplate": "umb://template/8ffd2e707ab94961a01622f29d6a4488",
+  "AllowedTemplates": [
+    "umb://template/8ffd2e707ab94961a01622f29d6a4488"
+  ],
+  "Icon": "icon-home color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": true,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/5a18e5c0ca7b40e094601dab46da04d8",
+      "umb://document-type/a6ef3e600783467db8192e2e0c4b14be",
+      "umb://document-type/b67728ef43ca41af8e9049ec34b8ef7e",
+      "umb://document-type/bde6b8891fee498aa7fadf20c9cacea4",
+      "umb://document-type/f72270c678b64b769451a5726fe74567"
+    ]
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "050ac84e-041b-4deb-a9f6-f67992e66514",
+      "Name": "Om forlaget Forside",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "a4ca99b9-a634-4bdc-bae9-b86348d5b291",
+          "Alias": "aboutText",
+          "DataType": "umb://data-type/d9385eb572074e7ea6b658150cee6f3d",
+          "Description": "Giv en kort beskrivelse af forlaget",
+          "Mandatory": false,
+          "Name": "om forlaget beskrivelse",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "ae395185-3f6c-4318-a760-6ac54dca8cda",
+          "Alias": "aboutHeading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast en overskrift her",
+          "Mandatory": false,
+          "Name": "Om forlaget forside",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "43023b40-dfa4-4461-a735-67362f4a5026",
+      "Name": "Forside billede",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "4b909d85-6b77-4726-80e2-dd3b4cb46d82",
+          "Alias": "headline",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast en overskrift til billedet",
+          "Mandatory": false,
+          "Name": "Billede Overskrift",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "63d86bb6-9ffd-4181-89a1-044f23fa379e",
+          "Alias": "logo",
+          "DataType": "umb://data-type/7ba90bcb6186439e9a1924b3359680c5",
+          "Description": "Tilføj et logo til hjemmesiden",
+          "Mandatory": false,
+          "Name": "Logo",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "83e64ba6-f8cd-4265-89a4-21008024c5b3",
+          "Alias": "image",
+          "DataType": "umb://data-type/29af02f84c9a49c8b1e951c89661c84b",
+          "Description": "Vælg et billed der vises på forsiden",
+          "Mandatory": false,
+          "Name": "Forside billede",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "bec190d9-78e9-4863-85d8-dfecd77afef5",
+          "Alias": "secondaryHeadline",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast em sekundær overskrift der giver en beskrivelse af siden",
+          "Mandatory": false,
+          "Name": "Sekundær overskrift",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "52cf58ac-7f15-477c-940f-0896c81fb2ce",
+      "Name": "Footer kontakt info",
+      "SortOrder": 3,
+      "PropertyTypes": [
+        {
+          "Key": "19f01fb2-4f87-4999-9667-aeee045e4d2d",
+          "Alias": "socialeMedier",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast hvilke sociale medier forlaget har",
+          "Mandatory": false,
+          "Name": "Sociale medier",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "49053d98-8d7d-410c-8f35-10af3ff2fce8",
+          "Alias": "email",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Indtast email som man kan kontakte forlaget på",
+          "Mandatory": false,
+          "Name": "Email",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "5c5b56a1-aac8-4ef6-adee-426d54d6aa60",
+      "Name": "Forside Galleri",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "e7cd0f30-3db0-4d73-9e6e-4398a86b583d",
+          "Alias": "nested",
+          "DataType": "umb://data-type/5fa3b0253d8440c99d4fca424e6ebe65",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Forside Galleri",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "b4e489a5-afd9-47b6-9aac-fc7c35322334",
+      "Name": "Footer Forlag information",
+      "SortOrder": 4,
+      "PropertyTypes": [
+        {
+          "Key": "34c22315-815c-4eea-b22e-8b90fb8a373c",
+          "Alias": "cVR",
+          "DataType": "umb://data-type/71cd8003eb034e9b9a10073f77e75610",
+          "Description": "Indtast CVR for forlaget",
+          "Mandatory": false,
+          "Name": "CVR",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "b9333cf2-701d-4ecd-bd4d-23728596d4de",
+          "Alias": "forlagetsNavn",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Skriv forlagets navn her",
+          "Mandatory": false,
+          "Name": "Forlagets navn",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "d6495f40-e371-49ae-b3b7-de17b70a71a3",
+          "Alias": "by",
+          "DataType": "umb://data-type/d5dede29742549e6a3ec03f84ab90899",
+          "Description": "Indtast by og post nr for forlaget",
+          "Mandatory": false,
+          "Name": "By",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "f1402802-8f9c-4ddd-91c4-db6941fd0c07",
+          "Alias": "addresse",
+          "DataType": "umb://data-type/f8653568e50d4af2a41e0d2e63c235fc",
+          "Description": "Indtast addressen knyttet til forlaget",
+          "Mandatory": false,
+          "Name": "Addresse",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a2a8689917cc4e1ca9123e902c7a4694",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/29af02f84c9a49c8b1e951c89661c84b",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/5fa3b0253d8440c99d4fca424e6ebe65",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/71cd8003eb034e9b9a10073f77e75610",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/7ba90bcb6186439e9a1924b3359680c5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d5dede29742549e6a3ec03f84ab90899",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d9385eb572074e7ea6b658150cee6f3d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/f8653568e50d4af2a41e0d2e63c235fc",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/5a18e5c0ca7b40e094601dab46da04d8",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9d6e19520c7743f4a3116d03cd744a0d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a6ef3e600783467db8192e2e0c4b14be",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/b67728ef43ca41af8e9049ec34b8ef7e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/bde6b8891fee498aa7fadf20c9cacea4",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f72270c678b64b769451a5726fe74567",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/8ffd2e707ab94961a01622f29d6a4488",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "home",
+  "Alias": "home",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.2.0"
+}

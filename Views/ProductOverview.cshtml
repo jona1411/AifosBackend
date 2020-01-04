@@ -1,0 +1,36 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.ProductOverview>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master.cshtml";
+	var books = Model.Children<ProductItem>();
+	
+}
+
+    <section class="products">
+        <div class="products--title">
+            <h1>@Model.Name</h1>
+            <h4>@Model.GenreDescription</h4>
+        </div>
+            <hr>
+            <div class="products--overview">
+                @foreach (var book in books) {
+                <div class="product--card">
+                <a href="@book.Url">
+                    <img src="@book.ProductImage.Url" alt="alttext" >
+                </a>
+                    <h1>@book.Titel</h1>
+                    <p>@book.UnderTitel</p>
+                    <h3>@book.Price kr</h3>
+                    <button class="snipcart-add-item"
+                    data-item-id="@book.Name"
+                    data-item-price="@book.Price"
+                    data-item-name="@book.Name"
+                    data-item-image="@book.ProductImage.Url"
+                    >Læg i kurv</button>
+                </div>
+                }
+        </div>    
+    </section>
+    
+
+
